@@ -1,0 +1,54 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  background-image: linear-gradient(to right, #4776e6, #8e54e9);
+}
+
+.App{
+  text-align: center;
+}
+.MacImg{
+  width: 600px;
+  height: 350px;
+  margin-top: 20px;
+}
+.shopName{
+  color: #fffc00;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.tovarName{
+  margin-bottom: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.tovarPrice{
+  margin-bottom: 0;
+  color: #8bff7d;
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: system-ui;
+}
+.purchaseBtn, .payButton{
+  background-color: #2e333a;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+.form-row{
+  padding: 0 350px 0 350px;
+}
+
+.success{
+  color: #fff;
+}
